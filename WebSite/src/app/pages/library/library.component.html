@@ -1,0 +1,8 @@
+<div class="container">
+    <div *ngFor="let pack of soundPacks" class="sound-pack" [ngStyle]="{
+      background:
+        'linear-gradient(to bottom, ' + pack.color + ', ' + pack.color2 + ')'
+    }">
+        <span class="title">{{pack.title}}</span>
+    </div>
+</div>
