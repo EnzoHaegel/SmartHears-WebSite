@@ -2,22 +2,22 @@
   <mat-toolbar class="toolbar-background app-toolbar">
     <span routerLink="/" class="title">SmartHears</span>
     <span class="example-spacer"></span>
-    <button  routerLink="/library" class="button" mat-raised-button color="primary" aria-label="Mes packs de voix">
+    <div class="menu-button" routerLink="/library">
       <mat-icon class="icon">favorite</mat-icon>
       <span>Mes packs de voix</span>
-    </button>
-    <button  routerLink="/settings" class="button" mat-raised-button color="primary" aria-label="settings">
+    </div>
+    <div class="menu-button" routerLink="/settings">
       <mat-icon class="icon">settings</mat-icon>
       <span>Paramètres</span>
-    </button>
-    <button  routerLink="/contact" class="button" mat-raised-button color="primary" aria-label="contact">
+    </div>
+    <div class="menu-button" routerLink="/contact">
       <mat-icon class="icon">contact_phone</mat-icon>
       <span>Contact</span>
-    </button>
-    <button  routerLink="/profil" class="button" mat-raised-button color="primary" aria-label="profil">
+    </div>
+    <div class="menu-button" routerLink="/profil">
       <mat-icon class="icon">account_circle</mat-icon>
       <span>Profil</span>
-    </button>
+    </div>
   </mat-toolbar>
   <div class="line"></div>
   <router-outlet></router-outlet>
