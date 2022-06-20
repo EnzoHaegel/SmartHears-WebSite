@@ -22,6 +22,7 @@
 
         &:hover {
             border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
         }
     }
 
@@ -64,7 +65,7 @@
     }
 
     .toolbar-background {
-        background-color: #15202B;
+        background: linear-gradient(to right, #212121, #424242);
     }
 
     .line {
